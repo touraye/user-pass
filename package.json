@@ -1,0 +1,22 @@
+{
+  "name": "user-pass",
+  "version": "1.0.0",
+  "description": "user permission system in node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/touraye/user-pass.git"
+  },
+  "author": "ebrima touray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/touraye/user-pass/issues"
+  },
+  "homepage": "https://github.com/touraye/user-pass#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
