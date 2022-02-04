@@ -6,9 +6,9 @@ const ROLE = {
 module.exports = {
 	ROLE: ROLE,
 	users: [
-		{ id: 1, name: 'ebrima', ROLE: 'ROLE.ADMIN' },
-		{ id: 2, name: 'mariama', ROLE: 'ROLE.BASIC' },
-		{ id: 3, name: 'alieu', ROLE: 'ROLE.BASIC' },
+		{ id: 1, name: 'ebrima', role: ROLE.ADMIN },
+		{ id: 2, name: 'mariama', role: ROLE.BASIC },
+		{ id: 3, name: 'alieu', role: ROLE.BASIC },
 	],
 	projects: [
 		{ id: 1, name: 'project of ebrima', userId: 1 },
